@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title> ex10 </title>
+</head>
+<body>
+
+	<form action="/200626_servlet/Ex10" method="post" >
+	
+	<!-- <fieldset> 은 관련 속성들을 하나로 묶을 때 사용 -->
+		<fieldset style="width: 300px;">
+			<!-- <legend> 로 field의 이름을 지정할 수 있음 -->
+			<legend> 배열 파라미터 넘기기 </legend>
+			
+			<p> <span style="padding-left: 15px ">취미</span> <br><br>
+			<input type="checkbox" name="hobby" value="운동"> 운동<br>
+			<input type="checkbox" name="hobby" value="게임"> 게임<br>
+			<input type="checkbox" name="hobby" value="영화"> 영화<br>
+			<input type="checkbox" name="hobby" value="독서"> 독서
+			</p>
+			
+			<!-- multiple 로 옵션 중 여러개를 선택할 수 있게 만듦  -->
+			<p> 사용하는 프로그램 : 
+				<select name="program" multiple size="3">
+					<option>Java</option>
+					<option>HTML</option>
+					<option>servlet</option>
+					<option>JSP</option>
+					<option>Spring</option>
+					<option>Android</option>
+				</select>
+			</p>
+			
+			<p> <input type="submit" value="보내기"> </p>
+		
+		</fieldset>
+	
+	</form>
+
+</body>
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="UTF-8">
+<title> Ex08 서블릿에 전송할 정보 입력 3 </title>
+</head>
+
+<body>
+
+	<form action="/200626_servlet/Ex08" method="get">
+		
+		<p> 숫자 1 : <input type="number" name="su1"> </p>
+		<p> 숫자 2 : <input type="number" name="su2"> </p>
+		<p> 연산 : 
+			<select name="op">
+				<option>:::선택하세요:::</option>
+				<option value="+">더하기</option>
+				<option value="-">빼기</option>
+				<option value="*">곱하기</option>
+				<option value="/">나누기</option>
+			</select>
+		</p>
+		
+		
+		<p> <input type="submit" value="전송"> </p>
+		<p> <input type="reset" value="취소"> </p>
+		
+	</form>
+
+</body>
+
+</html>

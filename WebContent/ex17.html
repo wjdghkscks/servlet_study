@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script type="text/javascript">
+	function send_go() {
+		// JavaScript에서 다른 페이지로 이동
+		location.href="/200626_servlet/Ex17_3";
+	}
+</script>
+
+</head>
+
+<body>
+
+</body>
+	
+	<form action="/200626_servlet/Ex17_1" method="post">
+		<input type="submit" value="오늘 날짜 구하기">
+	</form>
+	
+	<br>
+	
+	<form action="/200626_servlet/Ex17_2" method="post">
+		<input type="submit" value="오늘 운수 구하기">
+	</form>
+	
+	<br>
+	
+	<!-- 버튼을 클릭하면 JavaScript 함수 호출 -->
+	<button onclick="send_go()">IP 구하기</button>
+	
+</html>

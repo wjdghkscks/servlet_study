@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<meta charset="UTF-8">
+<title>사칙연산 구하기</title>
+
+</head>
+<body>
+
+	<h1 style="text-align: center;"> 사칙연산 구하기 </h1>
+	
+	<fieldset>
+	<legend>계산을 원하는 숫자들을 차례로 입력하세요.</legend>
+		<form action="/200626_servlet/Ex20?cmd=5" method="post">
+			<p> 숫자 1 : <input type="number" name="su1"> </p>
+			<p> 숫자 2 : <input type="number" name="su2"> </p>
+			<p> 연산 : 
+				<input type="radio" name="op" value="+"> 더하기
+				<input type="radio" name="op" value="-"> 빼기
+				<input type="radio" name="op" value="*"> 곱하기
+				<input type="radio" name="op" value="/"> 나누기
+			</p>
+			
+			<p> <input type="submit" value="제출"> </p>
+		</form>
+	</fieldset>
+
+</body>
+</html>
